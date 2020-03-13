@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Template • TodoMVC</title>
+		<link rel="stylesheet" href="./node_modules/todomvc-common/base.css">
+		<link rel="stylesheet" href="./node_modules/todomvc-app-css/index.css">
+		<!-- CSS overrides - remove if you don't need it -->
+		<link rel="stylesheet" href="./src/static/css/app.css">
+	</head>
+	<body>
+		<div id="app">
+		</div>
+		<script src="../node_modules/babel-standalone/babel.js"></script>
+		<script src="../node_modules/react/umd/react.development.js"></script>
+		<script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+		<!-- Head 组件 -->
+		<script type="text/babel" src="./src/components/head/index.jsx"></script>
+		<!-- Main 组件 -->
+		<script type="text/babel" src="./src/components/main/index.jsx"></script>
+		<!-- Footer 组件 -->
+		<script type="text/babel" src="./src/components/footer/index.jsx"></script>
+		<!-- info 组件 -->
+		<script type="text/babel" src="./src/components/info/index.jsx"></script>
+		<script type="text/babel" src="app.jsx"></script>
+		<!-- 渲染组件 -->
+		<script type="text/babel" src="./src/index.js"></script>
+	</body>
+</html>
